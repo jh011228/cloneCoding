@@ -1,3 +1,21 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.header-container{
+  display: flex;
+  margin: 15px 99.5px;
+}
+.header-container ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+}
+.right-a{
+  text-decoration: none;
+}
 footer{
   background-color: #F3F5FA;
   color:#8d9299;
