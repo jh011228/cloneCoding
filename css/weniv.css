@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 .header-container{
   display: flex;
   margin: 15px 99.5px;
@@ -11,10 +15,13 @@
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
-  align-self: center;
 }
-.right-a{
-  text-decoration: none;
+
+.top-a{
+  padding: 15px;
+}
+.right-top{
+  width: 80%;
 }
 footer{
   background-color: #F3F5FA;
