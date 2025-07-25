@@ -10,6 +10,12 @@ a{
 li{
   list-style-type: none;
 }
+.header{
+  position: sticky;
+  top:0;
+  left: 0;
+  background-color: #FFF;
+}
 .header-container{
   display: flex;
   margin: 15px 99.5px;
@@ -19,7 +25,9 @@ li{
   display: flex;
   justify-content: flex-end;
 }
-
+.top-span:hover{
+  color:#2E6FF2;
+}
 .top-a{
   padding: 15px;
 }
@@ -52,15 +60,30 @@ main{
   width: 500px;
   height: 60px;
   padding: 0px 0px 0px 20px;
-}
-.find-contents:focus{
   outline: none;
-  border: 2px solid blue;
+  font-size: 16px;
+}
+.find-mix:focus-within{
+  outline: none;
+  border: 2px solid #2E6FF2;
   border-width: 1;
+}
+.find-search{
+  padding-top: 15px;
+  padding-right:15px;
 }
 .find-name{
   margin: 0px 0px 32px;
   font-size: 30.32px;
+}
+
+.fa-search:hover{
+  color: #2E6FF2;
+}
+.category-section{
+  position: sticky;
+  top : 50px;
+  background-color: #FFF;
 }
 .category{
   display: flex;
@@ -90,6 +113,9 @@ main{
   align-items: center;
   width: max-content;
 }
+.category-label:focus{
+  color: #2E6FF2;
+}
 .list{
   display: flex;
   gap: 60px 40px;
@@ -103,23 +129,30 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  width: 405px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
 }
 .list-image{
   border-radius: 20px;
-  width: 376px;
+  width: 397px;
   height: 196px;
 }
 .list-ex{
   text-align: left;
   margin: 0px 0px 12px;
+  
 }
 .list-ex-strong{
-  color:blue;
+  color:#2E6FF2;
 }
 .list-title{
   text-align: left;
   font-size: 24px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
   
 }
 footer{
