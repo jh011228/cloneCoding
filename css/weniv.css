@@ -78,7 +78,6 @@ main{
   font-size: 16px;
 }
 .find-mix:focus-within{
-  outline: none;
   border: 2px solid #2E6FF2;
   
 }
@@ -100,10 +99,13 @@ main{
   top : 80px;
   background-color: #B4B4dc;
   height: 150px;
+  width: 1905px;
 
 }
 .category{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .category-menu{
   width: 128px;
@@ -138,6 +140,9 @@ main{
 .category-label:hover{
   cursor: pointer;
 }
+.category-div-radio:hover + .category-label .category-div-img{
+  background-color: #DEE8ff;
+}
 .category-div-radio:checked+.category-label .category-div-img{
   border: 2px solid #2E6FF2;
   background-color: #DEE8ff;
@@ -164,18 +169,30 @@ main{
   text-overflow:ellipsis;
   white-space: nowrap;
 }
+
 .list-image{
   border-radius: 20px;
   width: 397px;
   height: 196px;
 }
+.list-image:hover{
+  transform: scale(1.25,1.25);
+  transition: all 0.5s ease-in-out;
+}
 .list-ex{
+  display: flex;
   text-align: left;
   margin: 0px 0px 12px;
-  
+  justify-content: space-between;
 }
 .list-ex-strong{
   color:#2E6FF2;
+}
+.fa-link{
+  opacity: 0.2;
+}
+.fa-link:hover{
+  opacity: 1;
 }
 .list-title{
   text-align: left;
@@ -184,6 +201,9 @@ main{
   text-overflow:ellipsis;
   white-space: nowrap;
   
+}
+.list-link{
+  text-align: end;
 }
 /* footer 영역 */
 footer{
