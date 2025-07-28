@@ -136,6 +136,7 @@ main{
 }
 .category-div-radio:checked+.category-label .category-div-img{
   border: 2px solid #2E6FF2;
+  background-color: #DEE8ff;
 }
 .category-div-radio:checked+.category-label .category-text{
   color: #2E6FF2;
