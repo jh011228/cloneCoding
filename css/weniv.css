@@ -82,7 +82,7 @@ main{
   
 }
 .find-search{
-  padding-top: 15px;
+  padding-top: 18px;
   padding-right:15px;
 }
 .find-name{
@@ -100,6 +100,7 @@ main{
   background-color: #B4B4dc;
   height: 150px;
   width: 1905px;
+  z-index: 30;
 
 }
 .category{
